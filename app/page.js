@@ -71,7 +71,18 @@ export default function Home() {
   };
 
   // useEffect(() => {
-  //   fetch('');
+  //   fetch(
+  //     "https://preprod2.kukufm.com/api/v1/channels/quiz/?show_id=204228&mode=easy",
+  //     {
+  //       method: "GET",
+  //       headers: {
+  //         Authorization:
+  //           "jwt eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoyOTM2NDE4MCwiZXhwIjoxNzA5MDU4NjAwfQ.5DnOBeZ8Nwd0sdPlyBT9on_6xM5DDovSjdwf-7JAOWx_ppY1k7qi1HP6htwf_RFoBFfr5XnY9VYdWJwiHkCTRg",
+  //       },
+  //     }
+  //   )
+  //     .then((res) => res.json())
+  //     .then((data) => console.log(data));
   // }, []);
 
   return (
